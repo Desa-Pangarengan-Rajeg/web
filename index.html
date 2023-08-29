@@ -29,7 +29,7 @@
     </style>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/LOGO2.png" />
+    <link rel="icon" href="LOGO Kab tang.png" />
     <title>DESA PANGERENGAN</title>
   </head>
 
@@ -73,12 +73,12 @@
       <nav class="red accent-2">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="#home" class="brand-logo active"><img src="img/LOGO2.png" width="55" style="padding-top: 3px"></a>
+            <a href="#home" class="brand-logo active"><img src="LOGO Kab tang.png" width="50" height="55" style="padding-top: 1px"></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#kegiatan">Kegiatan</a></li>
-              <li><a href="#datastunting">Data Stunting</a></li>
+              <li><a href="stunting.html">Data Stunting</a></li>
               <li><a href="#servises">Structure</a></li>
               <li><a href="#contact">Contact Us</a></li>
             </ul>
@@ -90,9 +90,10 @@
       <!--NAVBAR AKHIR-->
     <!--SIDE NAV-->
     <ul class="sidenav" id="mobile-nav">
+      <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#kegiatan">Kegiatan</a></li>
-      <li><a href="#datastunting">Data Stunting</a></li>
+      <li><a href="stunting.html">Data Stunting</a></li>
       <li><a href="#servises">Structure</a></li>
       <li><a href="#contact">Contact Us</a></li>
       </ul>
@@ -209,11 +210,7 @@
               
             <br />
             <br />
-            <h5 class="center">VISI & MISI</h5>
-            <p class="justify">
-              Membangun dan memperdayakan masyarakat agar tercipta suatu masyarakat yang mandiri. Meningkatkan kreativitas dan inovasi yang terus berkembang menghasilkan sesuatu dengan memanfaatkan lingkungan. Meningkatkan kesadaran
-              masyarakat untuk menciptakan tempat tinggal yang bersih indah dan nyaman.
-            </p>
+            
           </div>
         </div>
       </div>
@@ -350,20 +347,29 @@
           </div>
           <div class="col m3 s12">
             <div class="card small center">
-              <img src="img/Zaenal.png" style="width: 160px; height: 190px; padding-top: 2rem" />
+              <img src="img/kasipelayanan.jpeg" style="width: 160px; height: 190px; padding-top: 2rem" />
 
-              <h5>ZAENAL EFENDI</h5>
-              <p>BENDAHARA</p>
+              <h5>Venti Nuraeni</h5>
+              <p>Kepala Seksi Pelayanan</p>
             </div>
           </div>
           <div class="col m3 s12">
             <div class="card small center">
-              <img src="img/Better.jpeg" style="width: 160px; height: 190px; padding-top: 2rem" />
+              <img src="img/kaurumum.jpeg" style="width: 160px; height: 190px; padding-top: 2rem" />
 
-              <h5>WILDAN N.R</h5>
-              <p>KOORDINATOR PENYEBARAN INFORMASI</p>
+              <h5>Edwin Permana</h5>
+              <p>Kepala Urusan Tatausaha dan umum</p>
             </div>
           </div>
+          <div class="col m3 s12">
+            <div class="card small center">
+              <img src="img/kaurperencanaan.jpeg" style="width: 160px; height: 190px; padding-top: 2rem" />
+
+              <h5>Hilmatunnisa</h5>
+              <p>Kepala Urusan perencanaan</p>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>
@@ -441,7 +447,13 @@
               <table class="center">
                 <tr>
                   <td>
-                    <a class="btn-flat" href="https://api.whatsapp.com/send/?phone=%2B6289628501277&text&type=phone_number&app_absent=0"> <img src="img/wa.png" width="25" height="25" alt="whatsapp" /> Desa Pangarengan</a>
+                    <a class="btn-flat" href="https://api.whatsapp.com/send/?phone=%2B6289628501277&text&type=phone_number&app_absent=0"> <img src="img/wa.png" width="25" height="25" alt="whatsapp" /> Admin (Edwin)</a>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <a class="btn-flat" href="https://api.whatsapp.com/send/?phone=%2B6281283427832&text&type=phone_number&app_absent=0"> <img src="img/wa.png" width="25" height="25" alt="whatsapp" /> Admin (Nining)</a>
                   </td>
                   <td></td>
                 </tr>
@@ -503,7 +515,7 @@
                   <textarea name="Pesan" id="message" class="materialize-textarea" required></textarea>
                   <label for="message">Pesan</label>
                 </div>
-                  <input type="hidden" name="NoHp" value="+6289628501277">
+            
                 <button type="submit" class="btn btn-primary btn-kirim waves-effect red accent-2" id="submit" onclick="sendwhatsapp();" >KIRIM</button>
                 <button class="btn btn-primary btn-loading hide" type ="button" disabled>
                   <div class="preloader-wrapper small active">
@@ -528,7 +540,7 @@
     </section>
     <script>
       function sendwhatsapp(){
-       var phonenumber = "+6289628501277";
+       var phonenumber = "+6281283427832";
 
        var name = document.querySelector("#name").value;
        var alamat = document.querySelector("#alamat").value;
